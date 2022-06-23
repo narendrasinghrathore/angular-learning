@@ -1,10 +1,9 @@
 import { Injectable } from '@angular/core';
 
-
 @Injectable({
   providedIn: 'root'
 })
-export class GithubProfileService  {
+export class GithubFollowersService extends  {
 
   constructor() { }
 }
