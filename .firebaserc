@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "oshop-d9f32"
+  },
+  "targets": {
+    "oshop-d9f32": {
+      "hosting": {
+        "app": [
+          "oshop-d9f32"
+        ]
+      }
+    }
+  }
+}

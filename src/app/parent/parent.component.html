@@ -1,0 +1,13 @@
+
+
+<div>
+  <h1>Parent Component</h1>
+  <input type="text" [(ngModel)]="practiceWorkInParent">
+  <p>{{ msgFromChild }}</p>
+
+</div>
+<app-child
+[practiceWork] = "practiceWorkInParent"
+(sendMessageEmitter)="recieveMessage($event)">
+
+</app-child>
